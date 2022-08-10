@@ -1,11 +1,11 @@
   applications:
   - name: djangoapp
     routes:
-      - route: suleimanabdul.eu-gb.mybluemix.net 
+      - route: suletetes.eu-gb.mybluemix.net 
     memory: 128M
     buildpack: python_buildpack
   - name: djangoapp-nginx
     routes:
-      - route: suleimanabdul.eu-gb.mybluemix.net 
+      - route: suletetes.eu-gb.mybluemix.net 
     memory: 128M
     buildpack: staticfile_buildpack
